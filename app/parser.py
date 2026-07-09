@@ -1,17 +1,3 @@
-"""
-parser.py — loads a Zycus-style project plan export (.xlsx) and normalizes it
-into a flat DataFrame the rag_engine can score, regardless of which of the
-two known export layouts (Project_Plan_B style / S2P_Project style) it is.
-
-Handles messiness observed in real exports:
-- #UNPARSEABLE placeholder cells
-- Mislabeled/shifted header for the outline "level" (sometimes under 'Level',
-  sometimes functionally stored in 'Ancestors')
-- Variance stored as strings like "-2d" / "0" / "15d"
-- Critical? stored as 1.0/NaN instead of booleans
-- Excel serial date columns
-- Missing Status Comment / Comments / RAG / Schedule Health columns
-"""
 from __future__ import annotations
 import re
 import pandas as pd
