@@ -1,13 +1,3 @@
-"""
-weekly_run.py — bonus: run the agent across every plan in data/ on a
-schedule. Wire this into cron / Task Scheduler / GitHub Actions cron.
-
-    # crontab -e
-    0 9 * * MON  cd /path/to/project_health_agent && /usr/bin/python3 weekly_run.py
-
-Also used by monthly_synthesis.py, which reads everything under outputs/
-to build the executive deck.
-"""
 import glob
 import os
 from agent import run, print_report
