@@ -1,13 +1,3 @@
-"""
-monthly_synthesis.py — Phase 3. Reads every weekly JSON output the agent has
-produced (outputs/*.json) and synthesizes cross-project trends, instead of
-just concatenating per-project summaries. Writes synthesis.json, which
-make_deck.js then turns into the executive .pptx.
-
-Usage:
-    python3 monthly_synthesis.py
-    python3 monthly_synthesis.py --outputs-dir outputs --out synthesis.json
-"""
 from __future__ import annotations
 import argparse
 import glob
@@ -16,8 +6,6 @@ import os
 import re
 from collections import Counter, defaultdict
 
-# Domain themes we bucket phase/risk text into, to spot recurring patterns
-# across projects rather than just listing per-project detail.
 THEMES = {
     "Training & Enablement": ["training", "trainer", "enablement"],
     "Documentation & Sign-off": ["documentation", "sign off", "sign-off", "signoff", "iad", "review"],
