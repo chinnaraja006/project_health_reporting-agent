@@ -2,10 +2,6 @@ const pptxgen = require("pptxgenjs");
 const fs = require("fs");
 
 const S = JSON.parse(fs.readFileSync("synthesis.json", "utf8"));
-
-// Palette: Midnight Executive, chosen because RAG reporting is literally a
-// red/amber/green signal system — the navy/ice-blue base lets the RAG dots
-// be the one strong accent, repeated as the visual motif on every slide.
 const NAVY = "1E2761";
 const ICE = "CADCFC";
 const WHITE = "FFFFFF";
@@ -36,7 +32,6 @@ function footer(slide, n) {
   pageNum(slide, n);
 }
 
-// ---------- Slide 1: Title ----------
 {
   const s = pres.addSlide();
   s.background = { color: NAVY };
@@ -49,7 +44,6 @@ function footer(slide, n) {
     { x: 0.9, y: 6.5, w: 11, h: 0.4, fontSize: 13, color: ICE, italic: true });
 }
 
-// ---------- Slide 2: Portfolio Snapshot ----------
 {
   const s = pres.addSlide();
   s.background = { color: WHITE };
@@ -85,7 +79,6 @@ function footer(slide, n) {
   footer(s, 2);
 }
 
-// ---------- Slide 3: Cross-Project Trend Analysis ----------
 {
   const s = pres.addSlide();
   s.background = { color: WHITE };
@@ -117,7 +110,6 @@ function footer(slide, n) {
   footer(s, 3);
 }
 
-// ---------- Slide 4: Emerging Risks ----------
 {
   const s = pres.addSlide();
   s.background = { color: WHITE };
@@ -140,7 +132,6 @@ function footer(slide, n) {
   footer(s, 4);
 }
 
-// ---------- Slide 5: Project Comparison ----------
 {
   const s = pres.addSlide();
   s.background = { color: WHITE };
@@ -170,7 +161,6 @@ function footer(slide, n) {
   footer(s, 5);
 }
 
-// ---------- Slide 6: Executive Recommendations ----------
 {
   const s = pres.addSlide();
   s.background = { color: WHITE };
@@ -193,7 +183,6 @@ function footer(slide, n) {
   footer(s, 6);
 }
 
-// ---------- Slide 7: Next Steps / Cadence ----------
 {
   const s = pres.addSlide();
   s.background = { color: NAVY };
