@@ -1,14 +1,3 @@
-"""
-api.py — thin FastAPI wrapper around the same core (parser -> rag_engine ->
-llm_reasoning) used by agent.py. No logic is duplicated here.
-
-Run:
-    uvicorn api:app --reload --port 8000
-
-Endpoints:
-    POST /analyze-project   (multipart file upload, .xlsx)  -> full JSON report
-    GET  /health
-"""
 import os
 import shutil
 import tempfile
