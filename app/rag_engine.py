@@ -1,9 +1,3 @@
-"""
-rag_engine.py — deterministic RAG scoring, per the one-page methodology.
-No LLM calls here on purpose: schedule slippage, milestone health, blockers-
-from-structure, and existing-field priors are all things that should be
-computed the same way every time, not vary by model sampling.
-"""
 from __future__ import annotations
 from datetime import datetime
 from dataclasses import dataclass, field
