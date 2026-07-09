@@ -1,8 +1,3 @@
-"""
-llm_reasoning.py — turns the deterministic RAG output into plain-English
-reasoning, using ONE OpenRouter call per project run (not per task) to keep
-this fast and cheap. The LLM never decides the RAG color — it explains it.
-"""
 from __future__ import annotations
 import json
 import os
