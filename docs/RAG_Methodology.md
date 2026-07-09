@@ -1,130 +1,33 @@
-Project Health Reporting Agent
+# Project Health Reporting Agent
 
-RAG (Red-Amber-Green) Methodology
+## RAG (Red-Amber-Green) Methodology
 
-Objective
+### Objective
 
-The objective of this framework is to automatically determine project health using a consistent, explainable, and auditable Red-Amber-Green (RAG) model. Instead of relying entirely on AI, deterministic business rules are used to calculate the project status, while the LLM generates executive-friendly explanations and recommendations.
+The objective of this framework is to automatically determine project health using a consistent, explainable, and auditable Red-Amber-Green (RAG) model. Deterministic business rules — not the LLM — calculate the RAG status. The LLM is used only to generate executive-friendly explanations of a status that has already been decided.
 
+### Evaluation Criteria
 
-Evaluation Criteria 
+| Signal | Green 🟢 | Amber 🟠 | Red 🔴 |
+|---|---|---|---|
+| **Schedule Slippage** (days behind baseline, from the Variance column) | ≤ 3 days late, or ahead of baseline | 4–10 days late | > 10 days late, OR a Critical-path task is late, OR Total Float has gone negative |
+| **Milestone / Task Health** (% Complete vs. expected progress for elapsed time) | On track | Trailing expected progress by up to ~20 points | Trailing by > 20 points, task is On Hold, or Not Started past its planned start date |
+| **Blockers** (Status Comment / Comments) | No blocker language detected | Comment flags a pending dependency with no stated deadline risk | Comment explicitly names a stuck dependency or unresolved external ask |
+| **Stakeholder Sentiment** (inferred by the LLM from free-text comments) | Neutral-to-positive | Mild friction, unclear ownership | Explicit escalation or withheld sign-off |
+| **Existing Zycus RAG / Schedule Health field** (if present in source data) | Green | Yellow | Red |
 
-Indicator
+**Roll-up rule:** a phase or project is never healthier than its worst active (non-completed) child — worst-signal-wins, not an average.
 
-Green 🟢
+### A Note on Budget
 
-Amber 🟠
+**Budget burn is not currently scored.** Neither sample project export (`Project_Plan_B.xlsx`, `S2P_Project.xlsx`) contains a cost or budget column, so rather than fabricate a threshold, this framework explicitly leaves budget out of v1 and flags its absence in each report's data-quality warnings. Once a Budget/Actual Cost field is available, it should be added as a sixth signal with equal weight to schedule and milestone health.
 
-Red   🔴
+### Assumptions
 
-Schedule Slippage
+- Dates are stored as Excel serial numbers and converted to real dates before scoring.
+- Where an existing Schedule Health/RAG column already exists in the source file, it's treated as a strong prior — but can be overridden if the other signals disagree strongly (e.g. a Red status comment shouldn't be masked by a stale Green field).
+- Malformed predecessor references (`#REF`) and `#UNPARSEABLE` cells are treated as data-quality warnings, not fatal errors.
+- Stakeholder sentiment has no structured field in the source data, so it's inferred by the LLM from free-text comments rather than scored deterministically.
 
-≤ 5%  🟢
-
-5–15% 🟠
-
-> 15% 🔴
-
-Budget Burn
-
-≤ 90%  🟢
-
-90–100% 🟠
-
-> 100%  🔴
-
-Milestone Health
-
-All milestones on track  🟢
-
-Minor milestone delays.  🟠
-
-Critical milestone missed  🔴
-
-Blockers
-
-No blockers  🟢
-
-Temporary blockers. 🟠
-
-Critical blockers impacting delivery. 🔴
-
-Stakeholder Sentiment
-
-Positive  🟢
-
-Neutral or mixed 🟠
-
-Negative  🔴
-
-Project Risks
-
-Low  🟢
-
-Medium 🟠
-
-High. 🔴
-
-
-Scoring Method
-
-Each indicator contributes to the overall project health score.
-
-Status   Score
-
-Green    0
-
-Amber    1
-
-Red      2
-
-The total score determines the final RAG status.
-
-Total Score.  Final Status
-
-0–2.           🟢 Green
-
-3–5            🟠 Amber
-
-6 or more      🔴 Red
-
-
-
-AI Reasoning
-
-After the RAG status is calculated, the Large Language Model generates:
-
-* A plain-English explanation of the project health
-* Key risks affecting delivery
-* Recommended next actions for project managers and leadership
-
-The AI does not determine the RAG status. It only explains the results produced by the deterministic scoring framework, ensuring consistency and explainability.
-
-
-Assumptions
-
-The framework assumes that project plans provide sufficient information about:
-
-* Schedule progress
-* Budget utilization
-* Milestone completion
-* Current blockers
-* Stakeholder feedback
-* Project risks
-
-When certain information is unavailable, the system analyzes the available data and highlights any limitations in the generated report.
-
-
-Handling Incomplete Data
-
-The agent is designed to work with imperfect project plans.
-
-Supported scenarios include:
-
-* Missing budget information
-* Missing milestone dates
-* Empty stakeholder comments
-* Invalid or inconsistent date formats
-* Partially completed spreadsheets
-
-Instead of failing, the system continues processing available information and generates a meaningful health assessment.
+---
+*This methodology is implemented in `app/rag_engine.py`. See `README.md` for how to run the agent.*
