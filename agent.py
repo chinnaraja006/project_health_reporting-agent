@@ -1,14 +1,3 @@
-"""
-agent.py — CLI entry point.
-
-Usage:
-    python agent.py data/Project_Plan_B.xlsx
-    python agent.py data/S2P_Project.xlsx --out outputs/s2p_week1.json
-
-Bonus: runnable on a weekly schedule via cron / Task Scheduler, e.g.
-    0 9 * * MON  cd /path/to/project_health_agent && python agent.py data/*.xlsx
-(see README.md for a ready-made weekly_run.py that loops over a folder)
-"""
 from __future__ import annotations
 import argparse
 import json
