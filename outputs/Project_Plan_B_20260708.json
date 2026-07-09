@@ -1,0 +1,4318 @@
+{
+  "generated_at": "2026-07-08T11:46:48",
+  "source_file": "Project_Plan_B.xlsx",
+  "project_name": "Zycus - UniSan S2P Implementation",
+  "project_manager": "Rajat Bothra",
+  "data_quality_warnings": [
+    "1532 '#UNPARSEABLE' cells found in source export \u2014 ignored, not treated as errors.",
+    "3 broken predecessor links (#REF) found \u2014 dependency chain may be unreliable for those tasks."
+  ],
+  "project_rag": "Red",
+  "project_pct_complete": 0.44,
+  "phases": [
+    {
+      "phase": "Contract Sign Off",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Project Initiation and Data Gathering",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Configuration Validation & Documentation",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Single Sign On and User details Integration",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Contract Management with Basic Setup",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Supplier Information Management with Integration",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "User Acceptance Testing (UAT) Phase I",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "UAT Completion I",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Value KPI Sign-off",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Training Phase I",
+      "rag": "Red",
+      "status": "In Progress",
+      "pct_complete": 0.77,
+      "red_tasks": [
+        {
+          "task": "Training Phase I",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Train The Trainer",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Admin Training",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        }
+      ],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Training Completion",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Production Migration Phase I",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "KPI Reports to be migrated on PROD",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Sanity on Production for iContract and iSupplier",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Go /No-go Check Point ( Meeting with UniSan) for iContract & iSupplier",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Release Zycus system to all users  for iContract and iSupplier",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Production Go-Live Phase I",
+      "rag": "Green",
+      "status": "Completed",
+      "pct_complete": 1.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Hypercare Phase I",
+      "rag": "Red",
+      "status": "In Progress",
+      "pct_complete": 0.25,
+      "red_tasks": [
+        {
+          "task": "Hypercare Phase I",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        }
+      ],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Configuration Validation & Documentation",
+      "rag": "Red",
+      "status": "In Progress",
+      "pct_complete": 0.26,
+      "red_tasks": [
+        {
+          "task": "Configuration Validation & Documentation",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Requirement Workshop",
+          "reasons": [
+            "Flagged Amber in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "iSource Configuration Documentation Workshop",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "eProc, eInvoice and Merlin APSD Configuration Documentation Workshop",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Configuration Documentation",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "eProc, eInvoice and Merlin APSD Configuration Documentation",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        }
+      ],
+      "amber_tasks": []
+    },
+    {
+      "phase": "eProc and eInvoice and Merlin APSD",
+      "rag": "Red",
+      "status": "In Progress",
+      "pct_complete": 0.21,
+      "red_tasks": [
+        {
+          "task": "eProc and eInvoice and Merlin APSD",
+          "reasons": [
+            "Flagged Amber in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Integrations eproc",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "eProc Integration with SAP for Purchase order",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Integration Design",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Review of TDD and share feedback with Zycus",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Sign off on TDD",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Development and Testing on STAGING Set Up",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Integration development at UniSan - as applicable",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        }
+      ],
+      "amber_tasks": [
+        {
+          "task": "Integration set up and development at Zycus",
+          "reasons": [
+            "Flagged Amber in source Schedule Health/RAG field."
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "Contract Management with Basic Setup",
+      "rag": "Green",
+      "status": "In Progress",
+      "pct_complete": 0.03,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Supplier Information Management with Integration",
+      "rag": "Red",
+      "status": "In Progress",
+      "pct_complete": 0.12,
+      "red_tasks": [
+        {
+          "task": "Supplier Information Management with Integration",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "iSupplier Deployment",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Design & Development on STAGING Set UP",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Pre-UAT on STAGING Set UP",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Supplier Bulk Upload on STAGING",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "UniSan to provide supplier bulk upload data in the template provided by Zycus from UniSan's Staging environment",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "Zycus to review the files and provide feedback",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        },
+        {
+          "task": "UniSan to provide updated bulk upload data",
+          "reasons": [
+            "Flagged Red in source Schedule Health/RAG field."
+          ]
+        }
+      ],
+      "amber_tasks": [
+        {
+          "task": "UniSan Prod migration Supplier",
+          "reasons": [
+            "Flagged Amber in source Schedule Health/RAG field."
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "iSource Configuration",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Merlin Intake Configuration",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "User Acceptance Testing (UAT) Phase II",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "UAT Completion",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Value KPI Sign-off",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Training Phase II",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Training Completion",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Production Migration Phase II",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Sanity on Production - iSource and Merlin Intake",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Go /No-go Check Point ( Meeting with UniSan) - iSource and Merlin Intake",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Release Zycus system to all users -  iSource and Merlin Intake",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "KPI Reports to be migrated on PROD",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Sanity on Production  -  iSupplier, eProc, eInvoice and CLM",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Go /No-go Check Point ( Meeting with UniSan)  -  iSupplier, eProc, eInvoice and CLM",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Release Zycus system to all users  -  iSupplier, eProc, eInvoice and CLM",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Production Go-Live Phase II",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    },
+    {
+      "phase": "Hypercare Phase II",
+      "rag": "Green",
+      "status": "Not Started",
+      "pct_complete": 0.0,
+      "red_tasks": [],
+      "amber_tasks": []
+    }
+  ],
+  "reasoning": {
+    "overall_summary": "Project is RED. 5 phase(s) at risk: Training Phase I, Hypercare Phase I, Configuration Validation & Documentation, eProc and eInvoice and Merlin APSD, Supplier Information Management with Integration.",
+    "phase_reasoning": [
+      {
+        "phase": "Contract Sign Off",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Project Initiation and Data Gathering",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Configuration Validation & Documentation",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Single Sign On and User details Integration",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Contract Management with Basic Setup",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Supplier Information Management with Integration",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "User Acceptance Testing (UAT) Phase I",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "UAT Completion I",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Value KPI Sign-off",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Training Phase I",
+        "reasoning": "Red \u2014 77% complete."
+      },
+      {
+        "phase": "Training Completion",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Production Migration Phase I",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "KPI Reports to be migrated on PROD",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Sanity on Production for iContract and iSupplier",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Go /No-go Check Point ( Meeting with UniSan) for iContract & iSupplier",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Release Zycus system to all users  for iContract and iSupplier",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Production Go-Live Phase I",
+        "reasoning": "Green \u2014 100% complete."
+      },
+      {
+        "phase": "Hypercare Phase I",
+        "reasoning": "Red \u2014 25% complete."
+      },
+      {
+        "phase": "Configuration Validation & Documentation",
+        "reasoning": "Red \u2014 26% complete."
+      },
+      {
+        "phase": "eProc and eInvoice and Merlin APSD",
+        "reasoning": "Red \u2014 21% complete."
+      },
+      {
+        "phase": "Contract Management with Basic Setup",
+        "reasoning": "Green \u2014 3% complete."
+      },
+      {
+        "phase": "Supplier Information Management with Integration",
+        "reasoning": "Red \u2014 12% complete."
+      },
+      {
+        "phase": "iSource Configuration",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Merlin Intake Configuration",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "User Acceptance Testing (UAT) Phase II",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "UAT Completion",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Value KPI Sign-off",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Training Phase II",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Training Completion",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Production Migration Phase II",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Sanity on Production - iSource and Merlin Intake",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Go /No-go Check Point ( Meeting with UniSan) - iSource and Merlin Intake",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Release Zycus system to all users -  iSource and Merlin Intake",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "KPI Reports to be migrated on PROD",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Sanity on Production  -  iSupplier, eProc, eInvoice and CLM",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Go /No-go Check Point ( Meeting with UniSan)  -  iSupplier, eProc, eInvoice and CLM",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Release Zycus system to all users  -  iSupplier, eProc, eInvoice and CLM",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Production Go-Live Phase II",
+        "reasoning": "Green \u2014 0% complete."
+      },
+      {
+        "phase": "Hypercare Phase II",
+        "reasoning": "Green \u2014 0% complete."
+      }
+    ],
+    "top_risks": [
+      "Training Phase I / Training Phase I: Flagged Red in source Schedule Health/RAG field.",
+      "Training Phase I / Train The Trainer: Flagged Red in source Schedule Health/RAG field.",
+      "Training Phase I / Admin Training: Flagged Red in source Schedule Health/RAG field.",
+      "Hypercare Phase I / Hypercare Phase I: Flagged Red in source Schedule Health/RAG field.",
+      "Configuration Validation & Documentation / Configuration Validation & Documentation: Flagged Red in source Schedule Health/RAG field.",
+      "Configuration Validation & Documentation / Requirement Workshop: Flagged Amber in source Schedule Health/RAG field."
+    ],
+    "recommended_actions": [
+      "Review flagged tasks above with the assigned owners."
+    ],
+    "_llm_error": "OPENROUTER_API_KEY not set"
+  },
+  "tree": {
+    "task": "PROJECT ROOT",
+    "level": -1,
+    "status": "",
+    "pct_complete": null,
+    "rag": "Red",
+    "reasons": [],
+    "children": [
+      {
+        "task": "Contract Sign Off",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "Contract signing between UniSan and Zycus",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          },
+          {
+            "task": "Contract Sign Off",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "task": "Project Initiation and Data Gathering",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "Project Kick Off",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Review Contract Scope",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Assign Project Team and Internal communication",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Zycus Project Team mobilization and Team alignment",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Setup Project [Server, Email alias, Internal Applications, Central Drive, Internal ticket for STAGING Set Up]",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Sales / PreSales / Pilots handover",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Pre-kick off meeting with internal stakeholders",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Finalize kick off meeting schedule",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Review SOW with UniSan",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Kick off meeting [Introduction Meeting]",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Share Product specific templates [Questionnaire, User Details template, Legacy Data Upload] with UniSan",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Setup Value Introduction kick-off call",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "task": "Zycus Project Set-Up",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          },
+          {
+            "task": "Kick-off Meeting",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          },
+          {
+            "task": "Implementation Questionnaire and Staging Setup",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "STAGING Set Up",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "Company creation on Zycus STAGING environment",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "NFR (Non-Functional Requirement) Finalization and sign-off",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Configure staging setup with base configuration",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Value Definition Discussion",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Value Definition Review and Follow-up",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Value Definition Sign-off",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "task": "Quality Reviews",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "Schedule quality toll",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Quality Check by Zycus QC team",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "task": "Implementation Questionnaire and Staging Setup",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "task": "Configuration Validation & Documentation",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "Requirement Workshop",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "CLM Configuration Documentation Workshop",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "iSupplier Configuration Documentation Workshop",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Integration Configuration Documentation Workshop",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "task": "Configuration Documentation",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "iContract Documentation with Merlin",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "iSupplier Configuration Documentation",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "IAD Review for iSupplier and iContract",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "UniSan to review and Sign-off IAD Draft- iSupplier and iContract",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Value Realization Target Discussion",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "task": "Configuration Documentation concluded",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          },
+          {
+            "task": "First draft IAD Sign-off",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "task": "Single Sign On and User details Integration",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "Single Sign On - SSO",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Availability of Technical Team from Customer",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Design and Analysis",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "Zycus to share Process flow of SSO integration",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Exchange of configuration files",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Exchange of certificates to be used",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Approach to be used for Single Sign On [Claims/Email Address etc.]",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "task": "Configuration and Review",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "Development [STAGING] Environment",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "Registration of Service Provider URL for client",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Registration TMS URL specific to client",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Configuration of Web Server for service Provider application",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Service Provider application deployment for client and sanity of the deployed setup",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Configuration of Service Provider setup using below mentioned files",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Issue Resolution, if any",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Sign off of SSO on STAGING Environment",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "task": "SSO: Completion of Design & Analysis",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          },
+          {
+            "task": "SSO: Completion of Development and Testing",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "task": "Contract Management with Basic Setup",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "iContract Deployment (Repository + Authoring)",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Functional Configuration on STAGING set Up",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "User Role Configuration",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Admin Settings Configuration",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Readiness for Pre-UAT",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Pre-UAT",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "Pre-UAT - Provide End to end walkthrough of configured iContract to UniSan",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Provide feedback - if any for iContract configuration",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Sign off on Pre-UAT and final version of IAD sign off",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "WordConnect Installation at UniSan's end",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "task": "iContract: Conclude Functional Configuration",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "task": "Supplier Information Management with Integration",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "iSupplier Deployment",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Design & Development on STAGING Set UP",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "Users,Roles,Workflow & View Definition Configuration",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "Configure User Roles, View Definition and Workflow as per IAD",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "UniSan to provide feedback",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "task": "Pre-UAT on STAGING Set UP",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "Pre-UAT - Provide End to end walkthrough of configured iSupplier to UniSan",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Provide feedback - if any for iSupplier configuration",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Sign off on Pre-UAT and final version of IAD",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "task": "iSupplier: Conclude Functional Configuration",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          },
+          {
+            "task": "Value KPI Report creation on Staging",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          },
+          {
+            "task": "Value KPI Report demo on Staging",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "task": "User Acceptance Testing (UAT) Phase I",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "Prepare for UAT",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Prepare the UAT Approach",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Finalize and agree on UAT Approach",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Provide users & roles on STAGING required for UAT",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Create users on STAGING set for UAT group",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Provide Standard Test Cases",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Finalize Test Cases",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Quality Reviews",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "Schedule for quality check",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Quality Check by Zycus QC team",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "task": "End-to-End UAT",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "UAT for iContract and iSupplier",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Defect Analysis & UAT Feedback incorporation and share Test Closure Memo",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "UniSan to provide sign off on Test Closure Memo",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "task": "UAT Completion I",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Value KPI Sign-off",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Training Phase I",
+        "level": 1,
+        "status": "In Progress",
+        "pct_complete": 0.77,
+        "rag": "Red",
+        "reasons": [
+          "Flagged Red in source Schedule Health/RAG field."
+        ],
+        "children": [
+          {
+            "task": "Training Preparation",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Training Approach and Schedule finalization",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Training Agenda Finalization",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "task": "Train The Trainer",
+            "level": 2,
+            "status": "In Progress",
+            "pct_complete": 0.6,
+            "rag": "Red",
+            "reasons": [
+              "Flagged Red in source Schedule Health/RAG field."
+            ],
+            "children": [
+              {
+                "task": "iContract + Merlin for Contract Training",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "iSupplier Training",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Admin Training",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Red",
+                "reasons": [
+                  "Flagged Red in source Schedule Health/RAG field."
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "task": "Training Completion",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Production Migration Phase I",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "Migration of Solution from STAGING Environment to PRODUCTION",
+            "level": 2,
+            "status": "Completed",
+            "pct_complete": 1.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Log ticket for PRODUCTION tenant creation",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Configuration migration to PRODUCTION for iContract & iSupplier",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Provide the final list of users to be created on PRODUCTION",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Creation of Specified Users as per roles",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "WordConnect Installation at UniSan's end",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Migration of SSO",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "PRODUCTION setup with standard configuration",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Exchange of certificates to be used",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Registration of Service Provider URL for client",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Registration TMS URL specific to client",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Configuration of Web Server for service Provider application",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Service Provider application deployment for client and sanity of the deployed setup",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Raise internal ticket for configuration of service provider set up & PRODUCTION URL Change",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Configuration of Service Provider setup",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "PRODUCTION URL change",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "Configuring DSSO URL for all the respective product",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Testing of SSO login on PRODUCTION set up",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "task": "Sign off on SSO Implementation",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "task": "Quality Reviews",
+                "level": 3,
+                "status": "Completed",
+                "pct_complete": 1.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "Schedule for quality check",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Quality Check by Zycus QC team",
+                    "level": 4,
+                    "status": "Completed",
+                    "pct_complete": 1.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "task": "KPI Reports to be migrated on PROD",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Sanity on Production for iContract and iSupplier",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Go /No-go Check Point ( Meeting with UniSan) for iContract & iSupplier",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Release Zycus system to all users  for iContract and iSupplier",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Production Go-Live Phase I",
+        "level": 1,
+        "status": "Completed",
+        "pct_complete": 1.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Hypercare Phase I",
+        "level": 1,
+        "status": "In Progress",
+        "pct_complete": 0.25,
+        "rag": "Red",
+        "reasons": [
+          "Flagged Red in source Schedule Health/RAG field."
+        ],
+        "children": []
+      },
+      {
+        "task": "Configuration Validation & Documentation",
+        "level": 1,
+        "status": "In Progress",
+        "pct_complete": 0.26,
+        "rag": "Red",
+        "reasons": [
+          "Flagged Red in source Schedule Health/RAG field."
+        ],
+        "children": [
+          {
+            "task": "Requirement Workshop",
+            "level": 2,
+            "status": "In Progress",
+            "pct_complete": 0.51,
+            "rag": "Red",
+            "reasons": [
+              "Flagged Amber in source Schedule Health/RAG field."
+            ],
+            "children": [
+              {
+                "task": "iSource Configuration Documentation Workshop",
+                "level": 3,
+                "status": "In Progress",
+                "pct_complete": 0.8,
+                "rag": "Red",
+                "reasons": [
+                  "Flagged Red in source Schedule Health/RAG field."
+                ],
+                "children": []
+              },
+              {
+                "task": "eProc, eInvoice and Merlin APSD Configuration Documentation Workshop",
+                "level": 3,
+                "status": "In Progress",
+                "pct_complete": 0.5,
+                "rag": "Red",
+                "reasons": [
+                  "Flagged Red in source Schedule Health/RAG field."
+                ],
+                "children": []
+              },
+              {
+                "task": "CLM Additional Approval Workflow Documentation Workshop",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Merlin Intake Configuration Documentation Workshop",
+                "level": 3,
+                "status": "In Progress",
+                "pct_complete": 0.8,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Integration Configuration Documentation Workshop ( eInovoice, iContract)",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "task": "Configuration Documentation",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Red",
+            "reasons": [
+              "Flagged Red in source Schedule Health/RAG field."
+            ],
+            "children": [
+              {
+                "task": "iSource Configuration Documentation",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "eProc, eInvoice and Merlin APSD Configuration Documentation",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Red",
+                "reasons": [
+                  "Flagged Red in source Schedule Health/RAG field."
+                ],
+                "children": []
+              },
+              {
+                "task": "CLM Configuration Documentation",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "iSupplier Configuration Documentation",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Merlin Intake Configuration Documentation",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "IAD Review for all modules",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "UniSan to review and Sign-off IAD Draft",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Value Realization Target Discussion",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "task": "Configuration Documentation concluded",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          },
+          {
+            "task": "First draft IAD Sign-off",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "task": "eProc and eInvoice and Merlin APSD",
+        "level": 1,
+        "status": "In Progress",
+        "pct_complete": 0.21,
+        "rag": "Red",
+        "reasons": [
+          "Flagged Amber in source Schedule Health/RAG field."
+        ],
+        "children": [
+          {
+            "task": "eProc-einvoice Deployment",
+            "level": 2,
+            "status": "In Progress",
+            "pct_complete": 0.08,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Functional Configuration Finalization on STAGING set Up",
+                "level": 3,
+                "status": "In Progress",
+                "pct_complete": 0.08,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "User Roles configuration",
+                    "level": 4,
+                    "status": "In Progress",
+                    "pct_complete": 0.5,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Admin settings configuration",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Readiness for Pre-UAT",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Pre-UAT on STAGING",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "Pre-UAT - Provide End to end walkthrough of configured eProc and eInvoice to the Customer",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Provide feedback - if any for eProc configuration",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Sign off on Pre-UAT and final version of IAD",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "task": "eProc : Conclude Functional Configuration",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          },
+          {
+            "task": "Integrations eproc",
+            "level": 2,
+            "status": "In Progress",
+            "pct_complete": 0.47,
+            "rag": "Red",
+            "reasons": [
+              "Flagged Red in source Schedule Health/RAG field."
+            ],
+            "children": [
+              {
+                "task": "eProc Integration with SAP for Purchase order",
+                "level": 3,
+                "status": "In Progress",
+                "pct_complete": 0.47,
+                "rag": "Red",
+                "reasons": [
+                  "Flagged Red in source Schedule Health/RAG field."
+                ],
+                "children": [
+                  {
+                    "task": "Integration Design",
+                    "level": 4,
+                    "status": "In Progress",
+                    "pct_complete": 0.88,
+                    "rag": "Red",
+                    "reasons": [
+                      "Flagged Red in source Schedule Health/RAG field."
+                    ],
+                    "children": [
+                      {
+                        "task": "Mapping activity for Integration",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Share TDD for interface",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Review of TDD and share feedback with Zycus",
+                        "level": 5,
+                        "status": "In Progress",
+                        "pct_complete": 0.5,
+                        "rag": "Red",
+                        "reasons": [
+                          "Flagged Red in source Schedule Health/RAG field."
+                        ],
+                        "children": []
+                      },
+                      {
+                        "task": "Sign off on TDD",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Red",
+                        "reasons": [
+                          "Flagged Red in source Schedule Health/RAG field."
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "task": "Development and Testing on STAGING Set Up",
+                    "level": 4,
+                    "status": "In Progress",
+                    "pct_complete": 0.32,
+                    "rag": "Red",
+                    "reasons": [
+                      "Flagged Red in source Schedule Health/RAG field."
+                    ],
+                    "children": [
+                      {
+                        "task": "Integration set up and development at Zycus",
+                        "level": 5,
+                        "status": "In Progress",
+                        "pct_complete": 0.9,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Integration development at UniSan - as applicable",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Red",
+                        "reasons": [
+                          "Flagged Red in source Schedule Health/RAG field."
+                        ],
+                        "children": []
+                      },
+                      {
+                        "task": "Integration Unit Testing and Feedback Incorporation",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Systems Integration Testing",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": [
+                          {
+                            "task": "SIT on STAGING Set Up",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Green",
+                            "reasons": [],
+                            "children": []
+                          },
+                          {
+                            "task": "Sign off on SIT",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Green",
+                            "reasons": [],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "task": "eProc Integration: Completion of Design",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Red",
+                "reasons": [
+                  "Flagged Red in source Schedule Health/RAG field."
+                ],
+                "children": []
+              },
+              {
+                "task": "eProc Integration: Completion of Development and Testing",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "eProc Integration: Completion of SIT",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "task": "Integrations ASN",
+            "level": 2,
+            "status": "In Progress",
+            "pct_complete": 0.42,
+            "rag": "Red",
+            "reasons": [
+              "Flagged Amber in source Schedule Health/RAG field."
+            ],
+            "children": [
+              {
+                "task": "eProc Integration with SAP for Purchase order",
+                "level": 3,
+                "status": "In Progress",
+                "pct_complete": 0.42,
+                "rag": "Red",
+                "reasons": [
+                  "Flagged Amber in source Schedule Health/RAG field."
+                ],
+                "children": [
+                  {
+                    "task": "Integration Design",
+                    "level": 4,
+                    "status": "In Progress",
+                    "pct_complete": 0.83,
+                    "rag": "Red",
+                    "reasons": [
+                      "Flagged Red in source Schedule Health/RAG field."
+                    ],
+                    "children": [
+                      {
+                        "task": "Mapping activity for Integration",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Share TDD for interface",
+                        "level": 5,
+                        "status": "Completed",
+                        "pct_complete": 1.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Review of TDD and share feedback with Zycus",
+                        "level": 5,
+                        "status": "In Progress",
+                        "pct_complete": 0.5,
+                        "rag": "Red",
+                        "reasons": [
+                          "Flagged Red in source Schedule Health/RAG field."
+                        ],
+                        "children": []
+                      },
+                      {
+                        "task": "Sign off on TDD",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Red",
+                        "reasons": [
+                          "Flagged Red in source Schedule Health/RAG field."
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "task": "Development and Testing on STAGING Set Up",
+                    "level": 4,
+                    "status": "In Progress",
+                    "pct_complete": 0.32,
+                    "rag": "Red",
+                    "reasons": [
+                      "Flagged Amber in source Schedule Health/RAG field."
+                    ],
+                    "children": [
+                      {
+                        "task": "Integration set up and development at Zycus",
+                        "level": 5,
+                        "status": "In Progress",
+                        "pct_complete": 0.9,
+                        "rag": "Amber",
+                        "reasons": [
+                          "Flagged Amber in source Schedule Health/RAG field."
+                        ],
+                        "children": []
+                      },
+                      {
+                        "task": "Integration development at UniSan - as applicable",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Red",
+                        "reasons": [
+                          "Flagged Red in source Schedule Health/RAG field."
+                        ],
+                        "children": []
+                      },
+                      {
+                        "task": "Integration Unit Testing and Feedback Incorporation",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Systems Integration Testing",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": [
+                          {
+                            "task": "SIT on STAGING Set Up",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Green",
+                            "reasons": [],
+                            "children": []
+                          },
+                          {
+                            "task": "Sign off on SIT",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Green",
+                            "reasons": [],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "task": "eProc Integration: Completion of Design",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Red",
+                "reasons": [
+                  "Flagged Red in source Schedule Health/RAG field."
+                ],
+                "children": []
+              },
+              {
+                "task": "eProc Integration: Completion of Development and Testing",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "eProc Integration: Completion of SIT",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "task": "Integrations eInvoice",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Red",
+            "reasons": [
+              "Flagged Amber in source Schedule Health/RAG field."
+            ],
+            "children": [
+              {
+                "task": "eInvoice Integration",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Red",
+                "reasons": [
+                  "Flagged Amber in source Schedule Health/RAG field."
+                ],
+                "children": [
+                  {
+                    "task": "Integration Design",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Red",
+                    "reasons": [
+                      "Flagged Red in source Schedule Health/RAG field."
+                    ],
+                    "children": [
+                      {
+                        "task": "Mapping activity for Integration",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Red",
+                        "reasons": [
+                          "Flagged Red in source Schedule Health/RAG field."
+                        ],
+                        "children": []
+                      },
+                      {
+                        "task": "Share TDD for interface",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Red",
+                        "reasons": [
+                          "Flagged Red in source Schedule Health/RAG field."
+                        ],
+                        "children": []
+                      },
+                      {
+                        "task": "Review of TDD and share feedback with Zycus",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Sign off on TDD",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "task": "Development and Testing on STAGING Set Up",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "Integration set up and development at Zycus",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Integration development at UniSan - as applicable",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Integration Unit Testing and Feedback Incorporation",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Systems Integration Testing",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": [
+                          {
+                            "task": "SIT on STAGING Set Up",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Green",
+                            "reasons": [],
+                            "children": []
+                          },
+                          {
+                            "task": "Sign off on SIT",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Green",
+                            "reasons": [],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "task": "eInvoice Integration: Completion of Design",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "eInvoice Integration: Completion of Development and Testing",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "eInvoice Integration: Completion of SIT",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "task": "Contract Management with Basic Setup",
+        "level": 1,
+        "status": "In Progress",
+        "pct_complete": 0.03,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "iContract Deployment (Repository + Authoring)",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Functional Configuration on STAGING set Up",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "User Role Configuration",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Admin Settings Configuration",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Readiness for Pre-UAT",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Pre-UAT",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "Pre-UAT - Provide End to end walkthrough of configured iContract to UniSan",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Provide feedback - if any for iContract configuration",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Sign off on Pre-UAT and final version of IAD sign off",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "task": "iContract: Conclude Functional Configuration",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          },
+          {
+            "task": "Historical contracts Bulk Upload [up to 25,000 contracts]",
+            "level": 2,
+            "status": "In Progress",
+            "pct_complete": 0.05,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Zycus to provide walkthrough of shared template to UniSan",
+                "level": 3,
+                "status": "In Progress",
+                "pct_complete": 0.4,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "UniSan to provide historical contracts details for Bulk Upload",
+                "level": 3,
+                "status": "In Progress",
+                "pct_complete": 0.4,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Zycus to review shared details and provide feedback - if any",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "UniSan to incorporate feedback and provide revised final details of historical contracts for bulk upload into iContract",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Zycus to ensure supplier details availability in STAGING",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Zycus to bulk upload historical contracts details in STGAING [10 contracts for each Type/Subtype]",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "UniSan to review uploaded details and provide go ahead for bulk upload into PRODUCTION",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Zycus to bulk upload historical contracts details in Production",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "task": "Supplier Information Management with Integration",
+        "level": 1,
+        "status": "In Progress",
+        "pct_complete": 0.12,
+        "rag": "Red",
+        "reasons": [
+          "Flagged Red in source Schedule Health/RAG field."
+        ],
+        "children": [
+          {
+            "task": "iSupplier Deployment",
+            "level": 2,
+            "status": "In Progress",
+            "pct_complete": 0.13,
+            "rag": "Red",
+            "reasons": [
+              "Flagged Red in source Schedule Health/RAG field."
+            ],
+            "children": [
+              {
+                "task": "Design & Development on STAGING Set UP",
+                "level": 3,
+                "status": "In Progress",
+                "pct_complete": 0.13,
+                "rag": "Red",
+                "reasons": [
+                  "Flagged Red in source Schedule Health/RAG field."
+                ],
+                "children": [
+                  {
+                    "task": "Users,Roles,Workflow & View Definition Configuration",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "Configure User Roles, View Definition and Workflow as per IAD",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "UniSan to provide feedback",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "task": "Pre-UAT on STAGING Set UP",
+                    "level": 4,
+                    "status": "In Progress",
+                    "pct_complete": 0.05,
+                    "rag": "Red",
+                    "reasons": [
+                      "Flagged Red in source Schedule Health/RAG field."
+                    ],
+                    "children": [
+                      {
+                        "task": "Pre-UAT - Provide End to end walkthrough of configured iSupplier to UniSan",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Provide feedback - if any for iSupplier configuration",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Sign off on Pre-UAT and final version of IAD",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Supplier Bulk Upload on STAGING",
+                        "level": 5,
+                        "status": "In Progress",
+                        "pct_complete": 0.05,
+                        "rag": "Red",
+                        "reasons": [
+                          "Flagged Red in source Schedule Health/RAG field."
+                        ],
+                        "children": [
+                          {
+                            "task": "UniSan to provide supplier bulk upload data in the template provided by Zycus from UniSan's Staging environment",
+                            "level": 6,
+                            "status": "In Progress",
+                            "pct_complete": 0.5,
+                            "rag": "Red",
+                            "reasons": [
+                              "Flagged Red in source Schedule Health/RAG field."
+                            ],
+                            "children": []
+                          },
+                          {
+                            "task": "Zycus to review the files and provide feedback",
+                            "level": 6,
+                            "status": "In Progress",
+                            "pct_complete": 0.5,
+                            "rag": "Red",
+                            "reasons": [
+                              "Flagged Red in source Schedule Health/RAG field."
+                            ],
+                            "children": []
+                          },
+                          {
+                            "task": "UniSan to provide updated bulk upload data",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Red",
+                            "reasons": [
+                              "Flagged Red in source Schedule Health/RAG field."
+                            ],
+                            "children": []
+                          },
+                          {
+                            "task": "Zycus to bulk upload supplier data on STAGING setup",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Red",
+                            "reasons": [
+                              "Flagged Red in source Schedule Health/RAG field."
+                            ],
+                            "children": []
+                          },
+                          {
+                            "task": "UniSan to review bulk uploaded data",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Red",
+                            "reasons": [
+                              "Flagged Red in source Schedule Health/RAG field."
+                            ],
+                            "children": []
+                          },
+                          {
+                            "task": "UniSan to sign off on supplier bulk upload",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Red",
+                            "reasons": [
+                              "Flagged Red in source Schedule Health/RAG field."
+                            ],
+                            "children": []
+                          },
+                          {
+                            "task": "UniSan Prod migration Supplier",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Amber",
+                            "reasons": [
+                              "Flagged Amber in source Schedule Health/RAG field."
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "task": "Integration iSupplier",
+                    "level": 4,
+                    "status": "In Progress",
+                    "pct_complete": 0.38,
+                    "rag": "Red",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "iSupplier Integration",
+                        "level": 5,
+                        "status": "In Progress",
+                        "pct_complete": 0.38,
+                        "rag": "Red",
+                        "reasons": [],
+                        "children": [
+                          {
+                            "task": "Integration Design",
+                            "level": 6,
+                            "status": "In Progress",
+                            "pct_complete": 0.63,
+                            "rag": "Red",
+                            "reasons": [
+                              "Flagged Red in source Schedule Health/RAG field."
+                            ],
+                            "children": [
+                              {
+                                "task": "Mapping activity for Integration",
+                                "level": 7,
+                                "status": "Completed",
+                                "pct_complete": 1.0,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": []
+                              },
+                              {
+                                "task": "Share TDD for interface",
+                                "level": 7,
+                                "status": "Completed",
+                                "pct_complete": 1.0,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": []
+                              },
+                              {
+                                "task": "Review of TDD and share feedback with Zycus",
+                                "level": 7,
+                                "status": "In Progress",
+                                "pct_complete": 0.5,
+                                "rag": "Red",
+                                "reasons": [
+                                  "Flagged Red in source Schedule Health/RAG field."
+                                ],
+                                "children": []
+                              },
+                              {
+                                "task": "Sign off on TDD",
+                                "level": 7,
+                                "status": "Not Started",
+                                "pct_complete": 0.0,
+                                "rag": "Red",
+                                "reasons": [
+                                  "Flagged Red in source Schedule Health/RAG field."
+                                ],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "task": "Development and Testing on STAGING Set Up",
+                            "level": 6,
+                            "status": "In Progress",
+                            "pct_complete": 0.29,
+                            "rag": "Red",
+                            "reasons": [],
+                            "children": [
+                              {
+                                "task": "Integration set up and development at Zycus",
+                                "level": 7,
+                                "status": "In Progress",
+                                "pct_complete": 0.8,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": []
+                              },
+                              {
+                                "task": "Integration development at UniSan - as applicable",
+                                "level": 7,
+                                "status": "Not Started",
+                                "pct_complete": 0.0,
+                                "rag": "Red",
+                                "reasons": [
+                                  "Flagged Red in source Schedule Health/RAG field."
+                                ],
+                                "children": []
+                              },
+                              {
+                                "task": "Integration Unit Testing and Feedback Incorporation",
+                                "level": 7,
+                                "status": "Not Started",
+                                "pct_complete": 0.0,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": []
+                              },
+                              {
+                                "task": "Systems Integration Testing",
+                                "level": 7,
+                                "status": "Not Started",
+                                "pct_complete": 0.0,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": [
+                                  {
+                                    "task": "SIT on STAGING Set Up",
+                                    "level": 8,
+                                    "status": "Not Started",
+                                    "pct_complete": 0.0,
+                                    "rag": "Green",
+                                    "reasons": [],
+                                    "children": []
+                                  },
+                                  {
+                                    "task": "Sign off on SIT",
+                                    "level": 8,
+                                    "status": "Not Started",
+                                    "pct_complete": 0.0,
+                                    "rag": "Green",
+                                    "reasons": [],
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "task": "eInvoice Integration: Completion of Design",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Red",
+                        "reasons": [
+                          "Flagged Red in source Schedule Health/RAG field."
+                        ],
+                        "children": []
+                      },
+                      {
+                        "task": "eInvoice Integration: Completion of Development and Testing",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "eInvoice Integration: Completion of SIT",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "task": "Integration iSupplier - Exiger",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "iSupplier Integration",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": [
+                          {
+                            "task": "Integration Design",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Green",
+                            "reasons": [],
+                            "children": [
+                              {
+                                "task": "Mapping activity for Integration",
+                                "level": 7,
+                                "status": "Not Started",
+                                "pct_complete": 0.0,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": []
+                              },
+                              {
+                                "task": "Share TDD for interface",
+                                "level": 7,
+                                "status": "Not Started",
+                                "pct_complete": 0.0,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": []
+                              },
+                              {
+                                "task": "Review of TDD and share feedback with Zycus",
+                                "level": 7,
+                                "status": "Not Started",
+                                "pct_complete": 0.0,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": []
+                              },
+                              {
+                                "task": "Sign off on TDD",
+                                "level": 7,
+                                "status": "Not Started",
+                                "pct_complete": 0.0,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "task": "Development and Testing on STAGING Set Up",
+                            "level": 6,
+                            "status": "Not Started",
+                            "pct_complete": 0.0,
+                            "rag": "Green",
+                            "reasons": [],
+                            "children": [
+                              {
+                                "task": "Integration set up and development at Zycus",
+                                "level": 7,
+                                "status": "Not Started",
+                                "pct_complete": 0.0,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": []
+                              },
+                              {
+                                "task": "Integration development at UniSan - as applicable",
+                                "level": 7,
+                                "status": "Not Started",
+                                "pct_complete": 0.0,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": []
+                              },
+                              {
+                                "task": "Integration Unit Testing and Feedback Incorporation",
+                                "level": 7,
+                                "status": "Not Started",
+                                "pct_complete": 0.0,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": []
+                              },
+                              {
+                                "task": "Systems Integration Testing",
+                                "level": 7,
+                                "status": "Not Started",
+                                "pct_complete": 0.0,
+                                "rag": "Green",
+                                "reasons": [],
+                                "children": [
+                                  {
+                                    "task": "SIT on STAGING Set Up",
+                                    "level": 8,
+                                    "status": "Not Started",
+                                    "pct_complete": 0.0,
+                                    "rag": "Green",
+                                    "reasons": [],
+                                    "children": []
+                                  },
+                                  {
+                                    "task": "Sign off on SIT",
+                                    "level": 8,
+                                    "status": "Not Started",
+                                    "pct_complete": 0.0,
+                                    "rag": "Green",
+                                    "reasons": [],
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "task": "eInvoice Integration: Completion of Design",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "eInvoice Integration: Completion of Development and Testing",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "eInvoice Integration: Completion of SIT",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "task": "iSupplier: Conclude Functional Configuration",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          },
+          {
+            "task": "Value KPI Report creation on Staging",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          },
+          {
+            "task": "Value KPI Report demo on Staging",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "task": "iSource Configuration",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "iSource Deployment",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Functional Configuration Finalization on STAGING set Up",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "User Roles configuration",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Admin settings configuration",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Readiness for Pre-UAT",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Pre-UAT on STAGING",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "Pre-UAT - Provide End to end walkthrough of configured iSource to the Customer",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Provide feedback - if any for iSource configuration",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Sign off on Pre-UAT and final version of IAD",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "task": "iSource : Conclude Functional Configuration",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "task": "Merlin Intake Configuration",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "Merlin intake Deployment",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Functional Configuration Finalization on STAGING set Up",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "User Roles configuration",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Admin settings configuration",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Readiness for Pre-UAT",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Pre-UAT on STAGING",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": [
+                      {
+                        "task": "Pre-UAT - Provide End to end walkthrough of configured Merlin Intake to the Customer",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Provide feedback - if any for Merlin Intake configuration",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      },
+                      {
+                        "task": "Sign off on Pre-UAT and final version of IAD",
+                        "level": 5,
+                        "status": "Not Started",
+                        "pct_complete": 0.0,
+                        "rag": "Green",
+                        "reasons": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "task": "Merlin Intake : Conclude Functional Configuration",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "task": "User Acceptance Testing (UAT) Phase II",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "Prepare for UAT",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Prepare the UAT Approach",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Finalize and agree on UAT Approach",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Provide users & roles on STAGING required for UAT",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Create users on STAGING set for UAT group",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Provide Standard Test Cases",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Finalize Test Cases",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Quality Reviews",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "Schedule for quality check",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Quality Check by Zycus QC team",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "task": "End-to-End UAT",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "UAT Intake and iSource",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Defect Analysis & UAT Feedback incorporation and share Test Closure Memo",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "UniSan to provide sign off on Test Closure Memo",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "UAT iSupplier, eProc, eInvoice and CLM",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Defect Analysis & UAT Feedback incorporation and share Test Closure Memo",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "UniSan to provide sign off on Test Closure Memo",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "task": "UAT Completion",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Value KPI Sign-off",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Training Phase II",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "Training Preparation",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Training Approach and Schedule finalization",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Training Agenda Finalization",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "task": "Train The Trainer",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "iContract + Merlin for Contract Training",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "iSource Training",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "eProc Training",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "eInvoice and Merlin APSD Training",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Merlin Intake",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Admin Training",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "task": "Training Completion",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Production Migration Phase II",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": [
+          {
+            "task": "Migration of Solution from STAGING Environment to PRODUCTION",
+            "level": 2,
+            "status": "Not Started",
+            "pct_complete": 0.0,
+            "rag": "Green",
+            "reasons": [],
+            "children": [
+              {
+                "task": "Configuration migration to PRODUCTION - iSource and Merlin Intake",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Configuration migration to PRODUCTION -  iSupplier, eProc, eInvoice and CLM",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Provide the final list of users to be created on PRODUCTION",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Creation of Specified Users as per roles",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Migrate integration code to Prod",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": []
+              },
+              {
+                "task": "Quality Reviews",
+                "level": 3,
+                "status": "Not Started",
+                "pct_complete": 0.0,
+                "rag": "Green",
+                "reasons": [],
+                "children": [
+                  {
+                    "task": "Schedule for quality check",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  },
+                  {
+                    "task": "Quality Check by Zycus QC team",
+                    "level": 4,
+                    "status": "Not Started",
+                    "pct_complete": 0.0,
+                    "rag": "Green",
+                    "reasons": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "task": "Sanity on Production - iSource and Merlin Intake",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Go /No-go Check Point ( Meeting with UniSan) - iSource and Merlin Intake",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Release Zycus system to all users -  iSource and Merlin Intake",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "KPI Reports to be migrated on PROD",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Sanity on Production  -  iSupplier, eProc, eInvoice and CLM",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Go /No-go Check Point ( Meeting with UniSan)  -  iSupplier, eProc, eInvoice and CLM",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Release Zycus system to all users  -  iSupplier, eProc, eInvoice and CLM",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Production Go-Live Phase II",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      },
+      {
+        "task": "Hypercare Phase II",
+        "level": 1,
+        "status": "Not Started",
+        "pct_complete": 0.0,
+        "rag": "Green",
+        "reasons": [],
+        "children": []
+      }
+    ]
+  }
+}

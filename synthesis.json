@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-07-08T11:46:48",
+  "n_projects": 2,
+  "rag_distribution": {
+    "Red": 2,
+    "Amber": 0,
+    "Green": 0
+  },
+  "avg_pct_complete": 0.575,
+  "recurring_themes": [
+    {
+      "theme": "Training & Enablement",
+      "count": 4,
+      "examples": [
+        "UniSan: Training Phase I (Red)"
+      ]
+    },
+    {
+      "theme": "Documentation & Sign-off",
+      "count": 4,
+      "examples": [
+        "UniSan: Configuration Validation & Documentation (Red)"
+      ]
+    },
+    {
+      "theme": "Supplier / Integration",
+      "count": 3,
+      "examples": [
+        "UniSan: Supplier Information Management with Integration (Red)"
+      ]
+    },
+    {
+      "theme": "Go-Live & Migration",
+      "count": 2,
+      "examples": [
+        "UniSan: Hypercare Phase I (Red)"
+      ]
+    },
+    {
+      "theme": "Configuration & Build",
+      "count": 2,
+      "examples": []
+    }
+  ],
+  "all_themes_ranked": [
+    {
+      "theme": "Training & Enablement",
+      "count": 4
+    },
+    {
+      "theme": "Documentation & Sign-off",
+      "count": 4
+    },
+    {
+      "theme": "Supplier / Integration",
+      "count": 3
+    },
+    {
+      "theme": "Go-Live & Migration",
+      "count": 2
+    },
+    {
+      "theme": "Configuration & Build",
+      "count": 2
+    }
+  ],
+  "projects": [
+    {
+      "name": "Zycus - UniSan S2P Implementation",
+      "pm": "Rajat Bothra",
+      "rag": "Red",
+      "pct_complete": 0.44,
+      "red_phase_count": 5,
+      "amber_phase_count": 0,
+      "red_phases": [
+        "Training Phase I",
+        "Hypercare Phase I",
+        "Configuration Validation & Documentation",
+        "eProc and eInvoice and Merlin APSD",
+        "Supplier Information Management with Integration"
+      ],
+      "top_risk": "Training Phase I / Training Phase I: Flagged Red in source Schedule Health/RAG field."
+    },
+    {
+      "name": "Zycus - Titan S2P Implementation",
+      "pm": "Aftab Hashambhai",
+      "rag": "Red",
+      "pct_complete": 0.71,
+      "red_phase_count": 2,
+      "amber_phase_count": 0,
+      "red_phases": [
+        "Phase 1- S2C",
+        "Phase 2 - P2P"
+      ],
+      "top_risk": "Phase 1- S2C / Phase 1- S2C: 6 days behind baseline schedule."
+    }
+  ],
+  "action_frequency": [
+    {
+      "action": "Review flagged tasks above with the assigned owners.",
+      "count": 2
+    }
+  ]
+}
